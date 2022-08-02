@@ -1,0 +1,25 @@
+.info {
+    background-color:palevioletred;
+}
+
+img {
+    height: 20vh;
+    width:auto;
+}
+
+#left {
+    height:2500px;
+    width:500px;
+    padding:1% 5%;
+    float:left;
+    clear: left;
+
+}
+
+#right {
+    height:2500px;
+    width:500px;
+    padding:1% 5%;
+    float:right;
+  
+}

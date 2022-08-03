@@ -1,25 +1,51 @@
-.info {
-    background-color:palevioletred;
-}
+/*Struggling with CSS formatting. 
+This is largely a repeat of formatting for past projects;
+I've run of out of ideas AND I wanted to see if I can write the ones I have from scratch,
+rather than just copying prior work.
+I got stuck trying to make simple things happen, so
+still productive, if headache-inducing use of time.*/
 
-img {
-    height: 20vh;
-    width:auto;
+body {
+    background-color:blue
+}
+header {
+    background-color:ghostwhite;
+    padding: 0px 2px;
+    border-width:1px;
+    border-color:cadetblue;
+    border-style: solid;
 }
 
 #left {
-    height:2500px;
-    width:500px;
-    padding:1% 5%;
+    height:auto;
+    width:45%;
+    padding:1% 1%;
     float:left;
-    clear: left;
-
+    clear:left;  
 }
 
 #right {
-    height:2500px;
-    width:500px;
-    padding:1% 5%;
-    float:right;
-  
+    height:auto;
+    width:45%;
+    padding:1% 1%;
+    float: right;
 }
+
+.info {
+    background-color:palevioletred;
+    text-align: center;
+    border-width:5px;
+    border-color:rgb(118, 39, 149);
+    border-style: solid;
+}
+
+img {
+    height: auto;
+    width: 40vw;
+    display: block;
+    margin: 1% auto;
+    border: rgb(198, 167, 228);
+    border-style: solid;
+    border-width: 10px;
+}
+
